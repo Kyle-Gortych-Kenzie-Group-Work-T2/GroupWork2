@@ -12,21 +12,21 @@ Date Created:
 # GroupWork2
 
 <details>
-    <summary>path/file one</summary>
+<summary>path/file one</summary>
 
-    ``` java
+``` java
 
-        /* test */
+/* test */
 
-    ```
+```
 </details>
 
 <details>
-    <summary>path2/file two</summary>
+<summary>path2/file two</summary>
 
-    ``` java
+``` java
 
-        /* test */
+/* test */
 
-    ```
+```
 </details>
