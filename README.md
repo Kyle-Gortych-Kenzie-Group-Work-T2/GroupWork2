@@ -12,7 +12,7 @@ Date Created:
 # GroupWork2
 
 <details>
-<summary>path/file one</summary>
+<summary>path1/file one</summary>
 
 ``` java
 
