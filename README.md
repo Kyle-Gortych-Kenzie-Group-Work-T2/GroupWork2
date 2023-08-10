@@ -14,8 +14,8 @@ Date Created:
 <details>
     <summary>WeeklyRosterManager</summary>
 
-    ``` java
-        package com.kenzie.attendance.management;
+``` java
+package com.kenzie.attendance.management;
 
 import com.kenzie.attendance.participants.ParticipantManager;
 import com.kenzie.set.Set;
@@ -242,5 +242,5 @@ public class WeeklyRosterManager {
     }
 }
 
-    ```
+```
 </details>
