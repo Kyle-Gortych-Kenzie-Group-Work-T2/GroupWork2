@@ -15,6 +15,6 @@ Date Created:
     <summary>path/file one</summary>
 
     ``` java
-        /* test */
+
     ```
 </details>
