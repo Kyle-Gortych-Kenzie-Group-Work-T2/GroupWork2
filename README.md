@@ -12,7 +12,7 @@ Date Created:
 # GroupWork2
 
 <details>
-<summary>Refactored or Created Files</summary>
+<summary>Original Work</summary>
 
 <details>
 <summary>WeeklyRosterManager</summary>
@@ -231,7 +231,6 @@ public class WeeklyRosterManager {
 }
 ```
 </details>
-
 <details>
 <summary>WeeklyRosterManagerTest</summary>
 
