@@ -9,7 +9,7 @@ Maintainers:
 Date Created:
 -->
 
-# GroupWork2
+# Week 3 Group Work
 
 <details>
 <summary>Refactored or Created Files</summary>
