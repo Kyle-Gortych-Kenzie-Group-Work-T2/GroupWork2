@@ -1,0 +1,34 @@
+plugins {
+    id 'ata-curriculum.snippets-conventions'
+    id 'ata-curriculum.integration-test-conventions'
+}
+
+checkstyle {
+    def suppressionFile = rootProject.file('Utilities/Checkstyle/configuration/checkstyle/unit1/suppressions.xml')
+    configProperties.put('checkstyle.suppression.filter', suppressionFile)
+}
+
+def wflowToTestsMap = [
+        'groupwork-rostermanager-test': ['com.kenzie.attendance.management.WeeklyRosterManagerTest']
+]
+
+wflowToTestsMap.forEach { wflowName, testList ->
+    tasks.register(wflowName) {
+        dependsOn wflowtest
+        test.doFirst {
+            filter {
+                testList.each { includeTestsMatching it }
+            }
+        }
+    }
+}
+
+def wflowToMainClassMap = [
+        'groupwork-rostermanager-main': 'com.kenzie.attendance.management.WeeklyRosterManager'
+]
+wflowToMainClassMap.forEach { wflowName, mainClass ->
+    tasks.register(wflowName) {
+        runMain.mainClass.set(mainClass)
+        dependsOn runMain
+    }
+}
