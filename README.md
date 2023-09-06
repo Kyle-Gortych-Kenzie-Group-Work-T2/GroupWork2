@@ -32,8 +32,9 @@ blank
 <br>
 
 ### Gradle Commands
-1. `./gradlew groupwork-rostermanager-main` : Runs Groupwork RosterManager main
-2. `./gradlew groupwork-rostermanager-test` : Runs Groupwork RosterManager test
+```console
+./gradlew groupwork-rostermanager-test
+```
 <br>
 
 <a href="your-gmail-link?">:mailbox:</a> How to reach the maintainer
